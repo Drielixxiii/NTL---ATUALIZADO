@@ -272,8 +272,6 @@ a:link {
   font-size: 80px;
 }
 
-/*inicio servicos*/
-
 .section-margin .col-lg-4 p {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
@@ -339,7 +337,6 @@ a:link {
 }
 
 .saibamais {
-  /* display:inline-block; */
   padding: 10px 20px;
   margin-top: 10px;
   font-size: 15px;
@@ -432,8 +429,6 @@ a:link {
 
 .unidadesimg {
   transition: 0.5s ease-in-out;
-  /* transform: 0.2s; */
-  /* filter: grayscale(0%); */
 }
 
 .unidadesimg:hover {
@@ -467,8 +462,6 @@ a:link {
   background-color: #4cbdbe;
   color: white;
 }
-
-/*botoes rede social*/
 
 .social-media {
   display: inline-flex;

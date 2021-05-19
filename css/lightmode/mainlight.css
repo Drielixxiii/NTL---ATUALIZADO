@@ -51,12 +51,10 @@ nav a {
   line-height: 1.6;
   margin: 15px 3px;
   padding: 10px 15px;
-  /* opacity: 0.8; */
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 300;
   color: #272727;
-  /* font-weight: bold; */
 }
 
 .navbar .navbar-nav .nav-item .nav-link p {
@@ -636,7 +634,6 @@ nav a {
   background: -webkit-linear-gradient(top, white 35%, #4e6773 100%);
   background: -ms-linear-gradient(top, white 35%, #4e6773 100%);
   background: linear-gradient(to bottom, white 35%, #4e6773 100%);
-  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 
@@ -693,7 +690,6 @@ nav a {
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  /* IE10+ CSS styles go here */
   .page-header .content-center {
     position: absolute;
     top: 50%;
@@ -730,8 +726,6 @@ nav a {
   position: relative;
   z-index: 2;
 }
-
-/*          Changes for small display      */
 
 @media (max-width: 767px) {
   #cd-vertical-nav {
