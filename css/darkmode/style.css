@@ -609,8 +609,6 @@ a:link {
   color: white;
 }
 
-/*botoes rede social*/
-
 .social-media {
   display: inline-flex;
   justify-content: center;
@@ -624,6 +622,14 @@ a:link {
   transition: all 0.3s;
   overflow: hidden;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0, 15);
+  border-color: #337c7e;
+  background-color: transparent;
+}
+
+.social-media:hover {
+  border-radius: 30px;
+  padding: 16px 60px;
+  background-color: var(--verde);
 }
 
 .social-media img {
@@ -645,27 +651,6 @@ a:link {
   transition: all 0.3s;
 }
 
-.social-media:nth-child(1) {
-  border-color: #337c7e;
-  background-color: #1d1d20;
-}
-
-.social-media:nth-child(2) {
-  border-color: #337c7e;
-  background-color: #1d1d20;
-}
-
-.social-media:nth-child(3) {
-  border-color: #337c7e;
-  background-color: #1d1d20;
-}
-
-.social-media:hover {
-  border-radius: 30px;
-  padding: 16px 60px;
-  background-color: var(--verde);
-}
-
 @media (max-width: 1000px) {
   .social-media:hover {
     border-radius: 30px;
@@ -679,37 +664,14 @@ a:link {
 }
 
 .social-media:hover span {
+  color: #000;
+  font-size: 15px;
   transform: translateY(0);
 }
 
-.social-media:nth-child(1):hover span {
-  color: #000;
-  font-size: 15px;
-}
-
-.social-media:nth-child(1):hover img {
+.social-media:hover img {
   opacity: 0;
 }
-
-.social-media:nth-child(2):hover span {
-  color: #000;
-  font-size: 15px;
-}
-
-.social-media:nth-child(2):hover img {
-  opacity: 0;
-}
-
-.social-media:nth-child(3):hover span {
-  color: #000;
-  font-size: 15px;
-}
-
-.social-media:nth-child(3):hover img {
-  opacity: 0;
-}
-
-/*final botoes redes sociais*/
 
 .footer {
   background-color: #121214;

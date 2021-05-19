@@ -41,15 +41,14 @@ nav a {
   line-height: 1.6;
   margin: 15px 3px;
   padding: 10px 15px;
-  opacity: 0.8;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 300;
-  color: var(--verde);
+  color: #f1f1f1;
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {
-  color: #e1e1e6;
+  color: var(--verde);
 }
 
 .navbar .navbar-nav .nav-item .nav-link p {
