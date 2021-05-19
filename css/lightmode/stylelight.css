@@ -211,23 +211,21 @@ a:hover {
   font-size: 15px;
   border-radius: 30px;
   border: 1px solid #28ddf5;
-  color: var(--verde);
+  color: #28ddf5;
   transition: 1s ease-in-out;
 }
 
 .botao1:hover {
   background-color: #34d6e8;
-  color: #000;
+  color: #FFF;
   background-position: right center;
-  /* change the direction of the change here */
-  color: #fff;
   text-decoration: none;
   transition: 0.7s ease-out;
 }
 
 .ligue {
   background: linear-gradient(138.88deg, #2afadf 0%, #4c83ff 136.76%);
-  color: #000;
+  color: #FFF;
 }
 
 .ligue:hover {
@@ -506,17 +504,7 @@ a:link {
   transition: all 0.3s;
 }
 
-.social-media:nth-child(1) {
-  border-color: #32a8a5;
-  background-color: #EEEEEE;
-}
-
-.social-media:nth-child(2) {
-  border-color: #32a8a5;
-  background-color: #EEEEEE;
-}
-
-.social-media:nth-child(3) {
+.social-media {
   border-color: #32a8a5;
   background-color: #EEEEEE;
 }
@@ -544,8 +532,6 @@ a:link {
   opacity: 0;
 }
 
-/*final botoes redes sociais*/
-
 .direitos {
   font-size: 12px;
 }
@@ -567,17 +553,17 @@ a:link {
     margin: 0 15px;
     font-size: 15px;
     border-radius: 30px;
-    border: 1px solid var(--verde);
-    color: var(--verde);
+    border: 1px solid #28ddf5;
+    color: #28ddf5;
     transition: 1s ease-in-out;
   }
   .ligue {
-    background-color: var(--verde);
-    color: #000;
+    background-color: #28ddf5;
+    color: #FFF;
   }
   .botao1:hover {
-    background-color: var(--verde);
-    color: #000;
+    background-color: #28ddf5;
+    color: #FFF;
     transition: 0.7s ease-out;
   }
   .imagemservico {
