@@ -22,6 +22,17 @@
   -webkit-filter: blur(5px);
 }
 
+.glass-milk {
+  background: #ffffff;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
 nav a {
   font-family: "Cabin";
 }

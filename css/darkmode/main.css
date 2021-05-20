@@ -8,12 +8,16 @@
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   padding: 0;
-  background: transparent;
+  background: black;
   /* background-image: linear-gradient(to right, black, rgb(34, 34, 37)); */
   box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
 }
 nav a {
   font-family: "Cabin";
+}
+
+.glass, .glass-milk{
+  display: none;
 }
 
 .navbar .navbar-brand {
@@ -34,7 +38,7 @@ nav a {
 }
 
 .navbar:not([class*="bg"]) .navbar-toggler .navbar-toggler-bar {
-  background: #121214 !important;
+  background: transparent !important;
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
@@ -135,7 +139,7 @@ nav a {
 }
 
 .navbar.navbar-transparent {
-  background: transparent !important;
+  background: black !important;
   padding-top: 25px;
   box-shadow: none;
 }
