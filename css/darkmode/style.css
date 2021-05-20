@@ -1,3 +1,8 @@
+body {
+  background-image: linear-gradient(to right, black, rgb(34, 34, 37));
+  overflow-x: hidden;
+}
+
 body::-webkit-scrollbar {
   width: 10px;
 }
@@ -18,8 +23,10 @@ body::-webkit-scrollbar-thumb:hover {
   --verde: var(#38a3a5);
 }
 
-body {
-  background-image: linear-gradient(to right, black, rgb(34, 34, 37));
+h1, h2, h3 {
+  color: #f1f1f1;
+  font-family: 'Cabin';
+  font-size: 40px;
 }
 
 footer {
@@ -97,13 +104,6 @@ footer {
   height: 400px;
 }
 
-h1, h2 {
-  color: #c2c2c2;
-  font-family: 'Cabin';
-  font-weight: 700;
-  font-size: 40px;
-}
-
 .color-title {
   background: linear-gradient( 271.28deg, #e0f9b8 -1.29%, #47e9ea 53.12%, #0e92ff 117.3%);
   -webkit-background-clip: text;
@@ -114,11 +114,6 @@ h1, h2 {
 .sectioninicio {
   margin-top: 110px;
   margin-bottom: 150px;
-}
-
-h3 {
-  color: #c2c2c2;
-  font-size: 30px;
 }
 
 .divescolha {
@@ -220,9 +215,8 @@ a:hover {
 .linha-gradiente {
   height: 5px;
   width: 200px;
-  background: linear-gradient(97.28deg, #28B9F5 11.51%, rgba(2, 255, 220, 0.83154) 61.42%);
-  margin-top: 15px;
-  margin-bottom: 25px;
+  background: linear-gradient(97.28deg, #0b9ddb 11.51%, #44dfd9 61.42%);
+  margin-bottom: 25px !important;
 }
 
 .nova {
@@ -318,8 +312,8 @@ a:link {
 }
 
 .tecnologia {
-  height: 500px;
-  width: 600px;
+  height: 450px;
+  width: 550px;
   margin: 0 auto;
   transition: 2s ease-in-out !important;
   filter: drop-shadow(50px -30px 150px rgba(50, 224, 196, 0.35));
@@ -384,9 +378,35 @@ a:link {
   color: #c2c2c2;
 }
 
+.card-4 {
+  background-color: #000;
+  border-radius: 10px;
+}
+
+.card-4 h4 {
+  color: #f1f1f1;
+}
+
+.card-4 p {
+  color: #f1f1f1;
+  font-size: 13px;
+}
+
+.card-header {
+  background-color: transparent;
+  border: #fff;
+}
+
+.icone {
+  opacity: 50%;
+  width: 40px;
+  height: 40px;
+}
+
 /*MAX WIDTH DO SITE*/
 
 @media (max-width: 1000px) {
+  /* celular */
   .sectioninicio {
     margin-top: 150px;
   }
@@ -417,18 +437,19 @@ a:link {
     height: 300px;
   }
   .tecnologia {
-    height: 200px;
-    height: 200px;
+    height: 300px;
+    width: 400px;
   }
   .card-4 {
     width: 150px;
     height: 150px;
   }
   .card-4 p {
-    color: #888888;
+    color: #f1f1f1;
     font-size: 10px;
   }
   .icone {
+    opacity: 1;
     width: 30px;
     height: 30px;
   }
@@ -481,6 +502,7 @@ a:link {
 /*MIN WIDTH DO SITE*/
 
 @media (min-width: 1000px) {
+  /* monitor */
   .btnorcamento {
     display: inline-block;
     padding: 10px 40px;
@@ -504,22 +526,6 @@ a:link {
   .servico1 {
     margin-bottom: 150px;
     margin-top: 100px;
-  }
-  .card-4 {
-    /* background-color: #272726; */
-    border-radius: 10px;
-  }
-  .card-4 h4 {
-    color: #a7a7a6;
-  }
-  .card-4 p {
-    color: #888888;
-    font-size: 10px;
-  }
-  .icone {
-    opacity: 50%;
-    width: 40px;
-    height: 40px;
   }
   .featurette-heading {
     margin-top: 7rem;
@@ -556,9 +562,13 @@ a:link {
       border-right-color: transparent;
     }
   }
-  .subtitulo {
-    font-size: 50px;
-  }
+}
+
+.titulo {
+  color: #f1f1f1;
+  text-transform: uppercase;
+  text-align: left;
+  grid-column: 1 / 4;
 }
 
 .PARCERIAS img {
@@ -573,8 +583,6 @@ a:link {
 
 .unidadesimg {
   transition: 0.5s ease-in-out;
-  /* transform: 0.2s; */
-  /* filter: grayscale(0%); */
 }
 
 .unidadesimg:hover {

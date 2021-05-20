@@ -1,10 +1,8 @@
 @media (min-width: 1000px) {
-.portfolio-celular {
-    display: none;
-  }
+    .portfolio-celular {
+        display: none;
+    }
 }
-
-
 
 .slide-wrapper {
     overflow: hidden;

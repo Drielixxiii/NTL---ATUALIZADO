@@ -34,6 +34,10 @@ footer {
   color: #272727;
 }
 
+.contato {
+  margin-top: 100px !important;
+}
+
 .troca-container {
   margin: 10px;
   margin-top: 25px;
@@ -91,8 +95,8 @@ footer {
   transform: translateX(30px);
 }
 
-.contato {
-  margin-top: 100px !important;
+.paragrafo {
+  font-size: 20px;
 }
 
 .pessoas {
@@ -291,16 +295,16 @@ a:link {
 }
 
 .tecnologia {
-  height: 500px;
-  width: 600px;
+  height: 450px;
+  width: 550px;
   margin: 0 auto;
   transition: 2s ease-in-out !important;
-  filter: drop-shadow(50px -30px 150px rgba(50, 224, 196, 0.35));
+  filter: drop-shadow(50px -30px 150px rgba(23, 240, 204));
 }
 
 .tecnologia:hover {
   transition: 2s ease-out !important;
-  filter: drop-shadow(50px -30px 150px rgba(50, 224, 196, 0.08));
+  filter: drop-shadow(50px -30px 150px rgb(103, 214, 196));
 }
 
 .textoinicio {
@@ -639,6 +643,10 @@ a:link {
     backdrop-filter: blur(5px);
     filter: blur(5px);
     -webkit-filter: blur(5px);
+  }
+  .tecnologia {
+    height: 300px;
+    width: 400px;
   }
 }
 
