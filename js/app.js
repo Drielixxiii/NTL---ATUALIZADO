@@ -8,7 +8,7 @@ btn.addEventListener("click", function() {
   // If the current URL contains "ligh-theme.css"
   if (theme.getAttribute("href") == "css/darkmode/geral.css") {
     // ... then switch it to "dark-theme.css"
-    theme.href = "css/lightmode/geral.css";
+    theme.href = "css/lightmode/geralsecondary.css";
 
   // Otherwise...
   } else {

@@ -1,6 +1,10 @@
 body {
-  background-color: #eeeeee;
+  background-color: #F5F6FA;
   overflow-x: hidden;
+}
+
+.backsecundario {
+  background-color: #eeeeee !important;
 }
 
 body::-webkit-scrollbar {
@@ -8,7 +12,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #eeeeee;
+  background: #F5F6FA;
 }
 
 body::-webkit-scrollbar-thumb {
