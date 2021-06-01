@@ -117,7 +117,6 @@ footer {
 
 .sectioninicio {
   margin-top: 110px;
-  margin-bottom: 150px;
 }
 
 .divescolha {
@@ -246,8 +245,9 @@ a:hover {
   margin-left: 20px;
 }
 
-.filias1, .filias2 {
-  margin-left: 60px;
+.filiais {
+  margin-right: 60px;
+  filter: invert(70%);
 }
 
 p {
@@ -384,7 +384,7 @@ a:link {
 }
 
 .icone {
-  opacity: 50%;
+  /* opacity: 50%; */
   width: 40px;
   height: 40px;
 }
@@ -489,6 +489,7 @@ a:link {
 .social-media img {
   width: 23px;
   height: 23px;
+  filter: invert(80%);
 }
 
 .social-media i {
