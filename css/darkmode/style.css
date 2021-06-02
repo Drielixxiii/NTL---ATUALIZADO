@@ -316,11 +316,13 @@ a:link {
   margin: 0 auto;
   transition: 2s ease-in-out !important;
   filter: drop-shadow(50px -30px 150px rgba(50, 224, 196, 0.35));
+  -webkit-filter: drop-shadow(50px -30px 150px rgba(50, 224, 196, 0.35));
 }
 
 .tecnologia:hover {
   transition: 2s ease-out !important;
   filter: drop-shadow(50px -30px 150px rgba(50, 224, 196, 0.08));
+  -webkit-filter: drop-shadow(50px -30px 150px rgba(50, 224, 196, 0.08));
 }
 
 .textoinicio {

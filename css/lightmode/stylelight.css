@@ -304,11 +304,13 @@ a:link {
   margin: 0 auto;
   transition: 2s ease-in-out !important;
   filter: drop-shadow(50px -30px 150px rgba(23, 240, 204));
+  -webkit-filter: drop-shadow(50px -30px 150px rgba(23, 240, 204));
 }
 
 .tecnologia:hover {
   transition: 2s ease-out !important;
   filter: drop-shadow(50px -30px 150px rgb(103, 214, 196));
+  -webkit-filter: drop-shadow(50px -30px 150px rgb(103, 214, 196));
 }
 
 .textoinicio {
