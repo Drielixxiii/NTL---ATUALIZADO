@@ -138,6 +138,12 @@ a {
   transition: background-color 0.3s, border-color 0.3s;
 }
 
+.cd-horizontal-timeline .teste a::after {
+  height: 25px;
+  width: 25px;
+  top: 21px;
+}
+
 .no-touch .cd-horizontal-timeline .events a:hover::after {
   background-color: #38a3a5;
   border-color: #38a3a5;
@@ -166,8 +172,7 @@ a {
   }
 }
 
-.cd-timeline-navigation a {
-  /* these are the left/right arrows to navigate the timeline */
+/* .cd-timeline-navigation a {
   position: absolute;
   z-index: 1;
   top: 50%;
@@ -181,7 +186,6 @@ a {
   width: 34px;
   border-radius: 30%;
   border: 2px solid #dfdfdf;
-  /* replace text with an icon */
   overflow: hidden;
   color: transparent;
   text-indent: 100%;
@@ -190,6 +194,22 @@ a {
   -moz-transition: border-color 0.3s;
   transition: border-color 0.3s;
   background-color: #888888;
+} */
+
+.cd-timeline-navigation a {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-image: url("img/next.png");
 }
 
 .cd-timeline-navigation a::after {
