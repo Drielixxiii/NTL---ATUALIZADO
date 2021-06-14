@@ -211,7 +211,7 @@ a {
   height: 32px;
   width: 32px;
   border-radius: 50%;
-  background: url("/img/next.png");
+  background: url(/img/next.png);
   filter: invert(100%);
 }
 

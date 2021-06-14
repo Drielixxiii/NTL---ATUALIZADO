@@ -209,7 +209,7 @@ a {
   height: 32px;
   width: 32px;
   border-radius: 50%;
-  background-image: url("img/next.png");
+  background: url(/img/next.png);
 }
 
 .cd-timeline-navigation a::after {
