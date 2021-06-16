@@ -362,7 +362,7 @@ a:link {
 }
 
 .localidade {
-  font-size: 22px;
+  font-size: 18px;
   color: #272727;
 }
 
@@ -692,5 +692,70 @@ a:link {
   }
   .empresasparceiras {
     margin: 40px;
+  }
+}
+
+.clientes, .clientes2 {
+  margin: 20px 40px 20px 40px;
+  filter: grayscale(100%);
+}
+
+.clientes:nth-child(1) {
+  width: 80px;
+  height: 80px;
+}
+
+.clientes:nth-child(2) {
+  height: 100px;
+  width: 70px;
+}
+
+.clientes:nth-child(3) {
+  height: 90px;
+  width: 120px;
+}
+
+.clientes2:nth-child(1) {
+  height: 80px;
+  width: 135px;
+}
+
+.clientes2:nth-child(2) {
+  height: 80px;
+  width: 120px;
+}
+
+.clientes2:nth-child(3) {
+  height: 50px;
+  width: 160px;
+}
+
+@media (max-width:1000px) {
+  .clientes, .clientes2 {
+    margin: 5px 20px 10px 20px;
+  }
+  .clientes:nth-child(1) {
+    width: 60px;
+    height: 60px;
+  }
+  .clientes:nth-child(2) {
+    height: 80px;
+    width: 50px;
+  }
+  .clientes:nth-child(3) {
+    height: 70px;
+    width: 100px;
+  }
+  .clientes2:nth-child(1) {
+    height: 50px;
+    width: 100px;
+  }
+  .clientes2:nth-child(2) {
+    height: 60px;
+    width: 90px;
+  }
+  .clientes2:nth-child(3) {
+    height: 30px;
+    width: 140px;
   }
 }

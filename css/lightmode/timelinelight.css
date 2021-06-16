@@ -140,7 +140,7 @@ a {
   transition: background-color 0.3s, border-color 0.3s;
 }
 
-.cd-horizontal-timeline .teste a::after {
+.cd-horizontal-timeline .maior a::after {
   height: 25px;
   width: 25px;
   top: 21px;
