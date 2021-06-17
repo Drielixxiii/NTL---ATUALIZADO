@@ -211,7 +211,7 @@ a:hover {
   color: #28b9f5;
 }
 
-.botao1 {
+.botao {
   display: inline-block;
   padding: 10px 60px;
   margin: 0 15px;
@@ -222,7 +222,7 @@ a:hover {
   transition: 1s ease-in-out;
 }
 
-.botao1:hover {
+.botao:hover {
   background-color: #34d6e8;
   color: #FFF;
   background-position: right center;
@@ -233,10 +233,6 @@ a:hover {
 .ligue {
   background: linear-gradient(138.88deg, #2afadf 0%, #4c83ff 136.76%);
   color: #FFF;
-}
-
-.ligue:hover {
-  background-color: #2496c7 !important;
 }
 
 .filiasparagrafo {
@@ -287,10 +283,6 @@ a:link {
 
 .barradivisao-divider {
   margin: 5rem 0;
-}
-
-.servico1 {
-  margin-top: 50px;
 }
 
 .imagemservico {
@@ -551,7 +543,7 @@ a:link {
   .slogan {
     font-size: 60px;
   }
-  .botao1 {
+  .botao {
     display: inline-block;
     padding: 10px 35px;
     margin: 0 15px;
@@ -565,7 +557,7 @@ a:link {
     background-color: #28ddf5;
     color: #FFF;
   }
-  .botao1:hover {
+  .botao:hover {
     background-color: #28ddf5;
     color: #FFF;
     transition: 0.7s ease-out;
@@ -679,10 +671,6 @@ a:link {
     margin-top: 50px;
     margin-bottom: 150px;
   }
-  .servico1 {
-    margin-bottom: 150px;
-    margin-top: 100px;
-  }
   .featurette-heading {
     margin-top: 7rem;
   }
@@ -695,43 +683,43 @@ a:link {
   }
 }
 
-.clientes, .clientes2 {
-  margin: 20px 40px 20px 40px;
+.clientes {
+  margin: 10px 30px 60px 30px;
   filter: grayscale(100%);
 }
 
 .clientes:nth-child(1) {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
 
 .clientes:nth-child(2) {
-  height: 100px;
-  width: 70px;
+  height: 80px;
+  width: 50px;
 }
 
 .clientes:nth-child(3) {
-  height: 90px;
-  width: 120px;
+  height: 70px;
+  width: 100px;
 }
 
-.clientes2:nth-child(1) {
-  height: 80px;
-  width: 135px;
+.clientes:nth-child(4) {
+  height: 60px;
+  width: 110px;
 }
 
-.clientes2:nth-child(2) {
-  height: 80px;
-  width: 120px;
+.clientes:nth-child(5) {
+  height: 70px;
+  width: 110px;
 }
 
-.clientes2:nth-child(3) {
-  height: 50px;
-  width: 160px;
+.clientes:nth-child(6) {
+  height: 40px;
+  width: 150px;
 }
 
 @media (max-width:1000px) {
-  .clientes, .clientes2 {
+  .clientes {
     margin: 5px 20px 10px 20px;
   }
   .clientes:nth-child(1) {
@@ -746,15 +734,15 @@ a:link {
     height: 70px;
     width: 100px;
   }
-  .clientes2:nth-child(1) {
+  .clientes:nth-child(4) {
     height: 50px;
     width: 100px;
   }
-  .clientes2:nth-child(2) {
+  .clientes:nth-child(5) {
     height: 60px;
     width: 90px;
   }
-  .clientes2:nth-child(3) {
+  .clientes:nth-child(6) {
     height: 30px;
     width: 140px;
   }
