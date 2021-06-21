@@ -3,8 +3,12 @@ body {
   overflow-x: hidden;
 }
 
-.backsecundario {
-  background-color: #eeeeee !important;
+.backazul {
+  background-color: #647B99!important;
+}
+
+:root {
+  --verde: var(#38a3a5);
 }
 
 body::-webkit-scrollbar {
@@ -16,15 +20,35 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: var(--verde);
+  background: #F58220;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-  background: var(--verde);
+  background: #F58220;
 }
 
-:root {
-  --verde: var(#38a3a5);
+.laranja {
+  color: #F58220;
+  width: 100%;
+  opacity: 1;
+  border: 3px solid #F58220;
+}
+
+.sectioninicio {
+  margin-top: 99px;
+  background: linear-gradient(89.99deg, #647B99 27.89%, rgba(197, 220, 242, 0.45) 97.17%);
+}
+
+.img-inicial {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  z-index: -2;
+  opacity: 0.2;
 }
 
 h1, h2, h3 {
@@ -100,6 +124,7 @@ footer {
 }
 
 .paragrafo {
+  color: #ececec;
   font-size: 20px;
 }
 
@@ -109,14 +134,11 @@ footer {
 }
 
 .color-title {
-  background-color: black;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: white;
 }
 
-.sectioninicio {
-  margin-top: 110px;
+.img-incial {
+  z-index: -1;
 }
 
 .divescolha {
@@ -203,7 +225,8 @@ a:hover {
 .linha-gradiente {
   height: 5px;
   width: 200px;
-  background: linear-gradient(97.28deg, #69c6ee 11.51%, #44dfd9 61.42%);
+  background: #F58220;
+  /* background: linear-gradient(97.28deg, #69c6ee 11.51%, #44dfd9 61.42%); */
   margin-bottom: 25px !important;
 }
 
@@ -213,25 +236,17 @@ a:hover {
 
 .botao {
   display: inline-block;
-  padding: 10px 60px;
-  margin: 0 15px;
+  padding: 10px 20px;
+  margin: 0;
   font-size: 15px;
   border-radius: 30px;
-  border: 1px solid #28ddf5;
   color: #28ddf5;
   transition: 1s ease-in-out;
 }
 
-.botao:hover {
-  background-color: #34d6e8;
-  color: #FFF;
-  background-position: right center;
-  text-decoration: none;
-  transition: 0.7s ease-out;
-}
-
 .ligue {
-  background: linear-gradient(138.88deg, #2afadf 0%, #4c83ff 136.76%);
+  /* background: linear-gradient(138.88deg, #2afadf 0%, #4c83ff 136.76%); */
+  background: #F58220;
   color: #FFF;
 }
 
@@ -307,10 +322,11 @@ a:link {
 
 .textoinicio {
   font-size: 47px;
-  background-color: black;
+  background-color: white;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 500;
 }
 
 .evolucao {
@@ -336,26 +352,31 @@ a:link {
 
 .pontospositivos {
   margin-top: 30px;
+  color: #ececec !important;
 }
 
 .saibamais {
   padding: 10px 20px;
   margin-top: 10px;
   font-size: 15px;
-  border: 1px solid var(--verde);
-  background-color: var(--verde);
+  border: 1px solid #F58220;
+  background-color: #F58220;
   color: #f1f1f1 !important;
   transition: 1s ease-in-out !important;
 }
 
 .saibamais:hover {
   transition: 1s ease-out;
-  background-color: #2f8385;
+  background-color: #eca160;
 }
 
 .localidade {
   font-size: 18px;
-  color: #272727;
+  color: #ececec;
+}
+
+.endereco p {
+  color: #ececec;
 }
 
 .card-4 {
@@ -443,9 +464,10 @@ a:link {
   padding: 10px 20px;
   font-size: 15px;
   border-radius: 30px;
-  border: 1px solid var(--verde);
-  color: var(--verde);
+  border: 1px solid #e79b59;
+  color: #e79b59;
   transition: 1s ease-in-out;
+  margin-bottom: 20px;
 }
 
 .vermapa:hover {
@@ -501,14 +523,14 @@ a:link {
 }
 
 .social-media {
-  border-color: #32a8a5;
+  border-color: #F58220;
   background-color: #EEEEEE;
 }
 
 .social-media:hover {
   border-radius: 30px;
   padding: 16px 60px;
-  background-color: var(--verde);
+  background-color: #F58220;
 }
 
 .social-media:hover i {
@@ -538,23 +560,21 @@ a:link {
     font-size: 25px !important;
   }
   .sectioninicio {
-    margin-top: 150px;
+    margin-top: 110px;
   }
   .slogan {
     font-size: 60px;
   }
   .botao {
     display: inline-block;
-    padding: 10px 35px;
-    margin: 0 15px;
+    padding: 10px 20px;
+    margin: 0;
     font-size: 15px;
     border-radius: 30px;
-    border: 1px solid #28ddf5;
-    color: #28ddf5;
     transition: 1s ease-in-out;
   }
   .ligue {
-    background-color: #28ddf5;
+    background-color: #F58220;
     color: #FFF;
   }
   .botao:hover {
@@ -654,18 +674,18 @@ a:link {
   .btnorcamento {
     display: inline-block;
     padding: 10px 40px;
-    width: 200px;
-    background: linear-gradient(137.16deg, #2afadf 0%, #4c83ff 121.75%);
+    width: 100px;
+    background: #F58220;
     text-align: center;
     font-size: 15px !important;
     border-radius: 30px;
-    color: #272727 !important;
+    color: white !important;
     transition: .3s ease-in-out;
   }
   .btnorcamento:hover {
     transition: .3s ease-out;
-    color: #fff !important;
-    background-color: transparent !important;
+    color: white !important;
+    background-color: #e4914a !important;
   }
   .section-margin {
     margin-top: 50px;

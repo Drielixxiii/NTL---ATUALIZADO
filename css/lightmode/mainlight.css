@@ -4,33 +4,8 @@
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   padding: 0;
-  background-color: transparent;
+  background-color: #555555;
   box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
-}
-
-.glass {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  pointer-events: none;
-  box-sizing: border-box;
-  backdrop-filter: blur(5px);
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-}
-
-.glass-milk {
-  background: #ffffff;
-  opacity: 0.6;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
 }
 
 nav a {
@@ -42,7 +17,7 @@ nav a {
   margin: 5px 0px;
   padding: 20px 15px;
   font-size: 14px;
-  color: #38a3a5;
+  color: white;
   text-transform: uppercase;
 }
 
@@ -65,7 +40,7 @@ nav a {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 300;
-  color: #272727;
+  color: white;
 }
 
 .navbar .navbar-nav .nav-item .nav-link p {
@@ -94,7 +69,7 @@ nav a {
 }
 
 .navbar .navbar-nav .nav-item .btn i {
-  color: #272727;
+  color: white;
 }
 
 .navbar .navbar-collapse .nav-item .nav-link p {
@@ -114,7 +89,7 @@ nav a {
 }
 
 .navbar .navbar-collapse:after {
-  background-color: white;
+  background-color: #555555;
 }
 
 .navbar #navbarSupportedContent .nav-item {
@@ -152,17 +127,17 @@ nav a {
 }
 
 .navbar.navbar-transparent {
-  background: transparent !important;
+  background: #555555 !important;
   padding-top: 25px;
   box-shadow: none;
 }
 
 .navbar.navbar-transparent .navbar-brand {
-  color: #272727 !important;
+  color: white !important;
 }
 
 .navbar.navbar-transparent .navbar-nav .nav-item .nav-link {
-  color: #272727;
+  color: white;
 }
 
 .navbar.navbar-transparent .navbar-toggler .navbar-toggler-bar {
@@ -187,7 +162,7 @@ nav a {
 
 .navbar .logo-container .brand {
   font-size: 18px;
-  color: #272727;
+  color: white;
   line-height: 20px;
   float: left;
   margin-left: 10px;
@@ -211,7 +186,7 @@ nav a {
 }
 
 .navbar-transparent .navbar-brand, [class*="bg"] .navbar-brand {
-  color: #272727;
+  color: white;
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
@@ -220,11 +195,11 @@ nav a {
   background-color: transparent;
   opacity: 1;
   filter: alpha(opacity=100);
-  color: #272727;
+  color: white;
 }
 
 .navbar-transparent .navbar-nav .nav-item .nav-link:not(.btn), [class*="bg"] .navbar-nav .nav-item .nav-link:not(.btn) {
-  color: #333333;
+  color: white;
   border-color: white;
 }
 
@@ -353,7 +328,7 @@ nav a {
 }
 
 .dropdown-menu .no-notification {
-  color: gray;
+  color: white;
   font-size: 1.2em;
   padding: 30px 30px;
   text-align: center;
@@ -660,7 +635,7 @@ nav a {
   margin-top: -60px;
   padding: 0 15px;
   width: 100%;
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
 }
 
 .category-absolute .creative-tim-logo {
@@ -1329,7 +1304,7 @@ nav a {
   }
   .navbar-collapse .navbar-nav>.nav-item>.nav-link {
     margin: 0px 0px;
-    color: #272727 !important;
+    color: white !important;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 12px;

@@ -72,7 +72,7 @@ a {
   top: 49px;
   height: 2px;
   /* width will be set using JavaScript */
-  background: #272727;
+  background: #525252;
   -webkit-transition: -webkit-transform 0.4s;
   -moz-transition: -moz-transform 0.4s;
   transition: transform 0.4s;
@@ -86,7 +86,7 @@ a {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #38a3a5;
+  background-color: black;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
   -ms-transform: scaleX(0);
@@ -147,8 +147,8 @@ a {
 }
 
 .no-touch .cd-horizontal-timeline .events a:hover::after {
-  background-color: #38a3a5;
-  border-color: #38a3a5;
+  background-color: black;
+  border-color: black;
 }
 
 .cd-horizontal-timeline .events a.selected {
@@ -156,12 +156,12 @@ a {
 }
 
 .cd-horizontal-timeline .events a.selected::after {
-  background-color: #38a3a5;
-  border-color: #38a3a5;
+  background-color: black;
+  border-color: black;
 }
 
 .cd-horizontal-timeline .events a.older-event::after {
-  border-color: #38a3a5;
+  border-color: black;
 }
 
 @media only screen and (min-width: 1100px) {
@@ -247,7 +247,7 @@ a {
 }
 
 .no-touch .cd-timeline-navigation a:hover {
-  border-color: #00fbff;
+  border-color: red;
 }
 
 .cd-timeline-navigation a.inactive {
@@ -260,7 +260,7 @@ a {
 }
 
 .no-touch .cd-timeline-navigation a.inactive:hover {
-  border-color: #dfdfdf;
+  border-color: red;
 }
 
 .cd-horizontal-timeline .events-content {

@@ -1,8 +1,4 @@
-
-
-
-document.documentElement.className += ' js';
-
+document.documentElement.className += " js";
 
 var transparent = true;
 var big_image;
@@ -48,7 +44,6 @@ $(document).ready(function () {
   }
 
   $(".navbar-collapse").click(function () {
-
     setTimeout(function () {
       if (pk.misc.navbar_menu_visible == 1) {
         $("html").removeClass("nav-open");
@@ -60,7 +55,6 @@ $(document).ready(function () {
       }
     }, 550);
   });
-
 
   // Change the collor of navbar collapse
   $("#navbarToggler")
@@ -297,49 +291,3 @@ function hasScrolled() {
 
   lastScrollTop = st;
 }
-
-
-
-
-var maquinadeescrever = document.getElementById("maquinadeescrever");
-
-var typewriter = new Typewriter(maquinadeescrever, {
-  loop: true,
-});
-
- typewriter
-  .start()
-  .pauseFor(3500)
-  .typeString("Sejam bem vindos à NTL")
-  .pauseFor(2500)
-  .deleteChars(22)
-  .pauseFor(1000)
-  
-  // .deleteAll()
-  .typeString("A empresa de suporte que você confia.")
-  .pauseFor(2500)
-  .deleteChars(37)
-  .pauseFor(1000)
-  .typeString("Peça e receba suporte de onde estiver.")
-  .pauseFor(2500)
-  .deleteChars(38)
-  .pauseFor(1000)
-  .typeString("Arraste para baixo e saiba mais")
-  .pauseFor(5000 * 60);
-
-var i = setInterval(function () {
-  clearInterval(i);
-  document.getElementById("loading").style.display = "none";
-  document.getElementById("conteudo").style.display = "inline";
-}, 0);
-
-window.onload = function onLoad() {
-  var circle = new ProgressBar.Circle("#progress", {
-    color: "#38a3a5",
-    duration: 0,
-    easing: "easeInOut",
-  });
-
-  circle.animate(0);
-};
-
