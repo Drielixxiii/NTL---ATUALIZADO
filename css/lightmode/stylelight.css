@@ -141,6 +141,14 @@ footer {
   z-index: -1;
 }
 
+.pergunta {
+  color: #ececec;
+}
+
+.pergunta:hover {
+  color: #cccccc;
+}
+
 .divescolha {
   margin-bottom: 150px;
   margin-top: 200px;
@@ -372,11 +380,11 @@ a:link {
 
 .localidade {
   font-size: 18px;
-  color: #ececec;
+  color: #272727;
 }
 
 .endereco p {
-  color: #ececec;
+  color: #272727;
 }
 
 .card-4 {
