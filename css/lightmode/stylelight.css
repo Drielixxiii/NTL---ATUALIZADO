@@ -5,6 +5,7 @@ body {
 
 .backazul {
   background-color: #647B99!important;
+  margin-top: 10px;
 }
 
 :root {
@@ -32,6 +33,10 @@ body::-webkit-scrollbar-thumb:hover {
   width: 100%;
   opacity: 1;
   border: 3px solid #F58220;
+}
+
+.texto {
+  text-align: justify;
 }
 
 .sectioninicio {
@@ -385,6 +390,15 @@ a:link {
 
 .endereco p {
   color: #272727;
+}
+
+.card-servicos {
+  background-color: white;
+  border-radius: 5px;
+  /* border: 1px solid #F58220; */
+  color: #272727;
+  cursor: pointer;
+  transition: .3s;
 }
 
 .card-4 {
