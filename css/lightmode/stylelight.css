@@ -37,6 +37,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .texto {
   text-align: justify;
+  font-size: 15px;
 }
 
 .sectioninicio {
@@ -60,6 +61,11 @@ h1, h2, h3 {
   color: #272727;
   font-family: 'Cabin';
   font-size: 40px;
+}
+
+h4 {
+  font-size: 18px;
+  color: #272727;
 }
 
 footer {
@@ -154,7 +160,7 @@ footer {
   color: #cccccc;
 }
 
-.divescolha {
+.margem {
   margin-bottom: 150px;
   margin-top: 200px;
 }
@@ -641,7 +647,7 @@ a:link {
     width: 45px;
     height: 45px;
   }
-  .divescolha {
+  .margem {
     margin-top: 100px;
     margin-bottom: 100px;
   }
