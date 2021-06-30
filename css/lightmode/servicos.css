@@ -24,6 +24,7 @@ body {
 }
 
 .destaque {
+    margin-top: 100px;
     color: #F58220;
     font-size: 50px;
     font-weight: bold;
@@ -35,17 +36,19 @@ body {
 }
 
 .topico {
+    margin-top: 35px;
     color: #272727;
     text-align: left;
 }
 
 .subtopico {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-size: 20px;
     color: #3a3a3a;
+    text-align: justify;
 }
 
-.nome-topico{
+.nome-topico {
     font-weight: bold;
     text-align: center;
 }
@@ -54,7 +57,6 @@ body {
     background-color: white;
     border-radius: 10px;
     width: 300px;
-    /* height: 310px; */
     margin: 10px;
     transition: .5s;
 }
@@ -74,4 +76,23 @@ body {
     text-align: left;
     margin-left: 10px;
     margin-bottom: 10px;
+}
+
+@media(max-width:1000px) {
+    .destaque {
+        margin-top: 150px;
+        font-size: 300px;
+    }
+    .subtitulo {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .subtopico {
+        font-size: 17px;
+    }
+    .explicacao {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
 }
