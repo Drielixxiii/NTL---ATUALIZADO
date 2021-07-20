@@ -45,6 +45,10 @@ body::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(89.99deg, #4e617a 30.89%, rgba(197, 220, 242, 0.45) 97.17%);
 }
 
+.inicio {
+  margin-left: 50px;
+}
+
 .img-inicial {
   position: absolute;
   top: 0;
@@ -342,7 +346,7 @@ a:link {
 }
 
 .textoinicio {
-  font-size: 47px;
+  font-size: 55px;
   background-color: white;
   -webkit-background-clip: text;
   background-clip: text;
