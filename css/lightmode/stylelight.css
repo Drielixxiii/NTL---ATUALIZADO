@@ -224,8 +224,8 @@ a:hover {
 }
 
 .nomeempresa img {
-  height: 60px;
-  width: 200px;
+  height: 70px;
+  width: 230px;
 }
 
 #proximasessao {
@@ -417,6 +417,7 @@ a:link {
   background-color: #fff;
   border-radius: 10px;
   height: 190px;
+  text-align: justify;
 }
 
 .card-4 h4 {
