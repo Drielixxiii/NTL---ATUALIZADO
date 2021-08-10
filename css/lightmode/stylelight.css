@@ -417,7 +417,7 @@ a:link {
   background-color: #fff;
   border-radius: 10px;
   height: 190px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .card-4 h4 {
