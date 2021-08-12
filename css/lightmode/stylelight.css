@@ -553,7 +553,7 @@ a:link {
 .social-media span {
   position: absolute;
   transform: translateY(-100px);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: 'Cabin';
   transition: all 0.3s;
 }
