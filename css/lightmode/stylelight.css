@@ -5,7 +5,7 @@ body {
 
 .backazul {
   background-color: #647B99!important;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 :root {
@@ -751,7 +751,7 @@ a:link {
   transition: .5s ease-in-out;
 }
 
-.clientes:nth-child(1) {
+.clientes:nth-child(1){
   width: 60px;
   height: 60px;
 }
@@ -761,7 +761,7 @@ a:link {
   width: 50px;
 }
 
-.clientes:nth-child(3) {
+.clientes:nth-child(3){
   height: 70px;
   width: 100px;
 }
@@ -779,6 +779,15 @@ a:link {
 .clientes:nth-child(6) {
   height: 40px;
   width: 150px;
+}
+
+.clientes:nth-child(10){
+  width: 100px;
+  height: 100px;
+}
+.clientes:nth-child(11){
+  width: 110px;
+  height: 130px;
 }
 
 @media (max-width:1000px) {
