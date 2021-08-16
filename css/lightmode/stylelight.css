@@ -416,7 +416,7 @@ a:link {
 .card-4 {
   background-color: #fff;
   border-radius: 10px;
-  height: 190px;
+  height: 100%;
   /* text-align: justify; */
 }
 
@@ -426,7 +426,7 @@ a:link {
 
 .card-4 p {
   color: #272727;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .card-header {
