@@ -742,6 +742,13 @@ a:link {
 .clientes {
   margin: 10px 30px 60px 30px;
   filter: grayscale(100%);
+  transition: .5s ease-in-out;
+}
+
+.clientes:hover {
+  filter: grayscale(0%);
+  /* filter: drop-shadow(0 0 0.75rem gray); */
+  transition: .5s ease-in-out;
 }
 
 .clientes:nth-child(1) {
