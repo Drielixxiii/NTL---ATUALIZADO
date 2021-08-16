@@ -13,8 +13,8 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Cabin";
-  color: #ececec;
-  background-color: #f8f8f8;
+  color: red;
+  background-color: red;
 }
 
 a {
@@ -72,7 +72,7 @@ a {
   top: 49px;
   height: 2px;
   /* width will be set using JavaScript */
-  background: #ececec;
+  background: #b3b3b3;
   -webkit-transition: -webkit-transform 0.4s;
   -moz-transition: -moz-transform 0.4s;
   transition: transform 0.4s;
@@ -109,7 +109,7 @@ a {
   text-align: center;
   font-size: 1.3rem;
   padding-bottom: 15px;
-  color: #ececec !important;
+  color: black !important;
   /* fix bug on Safari - text flickering while timeline translates */
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -133,8 +133,8 @@ a {
   height: 12px;
   width: 12px;
   border-radius: 50%;
-  border: 2px solid #dfdfdf;
-  background-color: #f8f8f8;
+  border: 2px solid #5555;
+  background-color: #555555;
   -webkit-transition: background-color 0.3s, border-color 0.3s;
   -moz-transition: background-color 0.3s, border-color 0.3s;
   transition: background-color 0.3s, border-color 0.3s;
@@ -188,7 +188,7 @@ a {
   width: 32px;
   border-radius: 50%;
   /* background: url(/img/next.png); */
-  /* filter: invert(100%); */
+  filter: invert(100%);
 }
 
 .cd-timeline-navigation a::after {
@@ -306,7 +306,7 @@ a {
 }
 
 .cd-horizontal-timeline .events-content h2 {
-  color: #ececec;
+  color: black;
   font-weight: 700;
 }
 
@@ -322,7 +322,7 @@ a {
 
 .cd-horizontal-timeline .events-content p {
   font-size: 1.4rem;
-  color: #ececec;
+  color: black;
 }
 
 .cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
@@ -335,7 +335,7 @@ a {
   }
   .cd-horizontal-timeline .events-content em {
     font-size: 2rem;
-    color: #ececec;
+    color: gray;
   }
   .cd-horizontal-timeline .events-content p {
     font-size: 1.8rem;
