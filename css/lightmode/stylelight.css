@@ -68,6 +68,11 @@ h1, h2, h3 {
   font-size: 40px;
 }
 
+.ball {
+  content: "• ";
+  color: #F58220;
+}
+
 h4 {
   font-size: 18px;
   color: #272727;
@@ -160,11 +165,11 @@ footer {
 }
 
 .pergunta {
-  color: #ececec;
+  color: #272727;
 }
 
 .pergunta:hover {
-  color: #cccccc;
+  color: #4e4e4e;
 }
 
 .margem {
@@ -229,7 +234,8 @@ a:hover {
   width: 190px;
   margin-bottom: 12px;
 }
-.nomeempresa  {
+
+.nomeempresa {
   height: 65px;
   width: 190px;
   margin-bottom: 12px;
@@ -421,19 +427,24 @@ a:link {
 }
 
 .card-4 {
-  background-color: #fff;
+  background-color: #e4914a;
   border-radius: 10px;
   height: 100%;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .card-4 h4 {
-  color: #272727;
+  /* color: #272727; */
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .card-4 p {
-  color: #272727;
-  font-size: 14px;
+  /* color: #272727; */
+  color: white;
+  font-size: 15px;
 }
 
 .card-header {
@@ -758,7 +769,7 @@ a:link {
   transition: .5s ease-in-out;
 }
 
-.clientes:nth-child(1){
+.clientes:nth-child(1) {
   width: 60px;
   height: 60px;
 }
@@ -768,7 +779,7 @@ a:link {
   width: 50px;
 }
 
-.clientes:nth-child(3){
+.clientes:nth-child(3) {
   height: 70px;
   width: 100px;
 }
@@ -788,15 +799,17 @@ a:link {
   width: 150px;
 }
 
-.clientes:nth-child(9){
+.clientes:nth-child(9) {
   width: 100px;
   height: 100px;
 }
-.clientes:nth-child(10){
+
+.clientes:nth-child(10) {
   width: 110px;
   height: 130px;
 }
-.clientes:nth-child(11){
+
+.clientes:nth-child(11) {
   width: 170px;
   height: 90px;
 }
@@ -831,6 +844,6 @@ a:link {
   }
 }
 
-.circulo{
+.circulo {
   width: 100px;
 }
