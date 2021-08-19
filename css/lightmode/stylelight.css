@@ -46,10 +46,6 @@ body::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(89.99deg, #4e617a 30.89%, rgba(197, 220, 242, 0.45) 97.17%);
 }
 
-.inicio {
-  margin-left: 50px;
-}
-
 .img-inicial {
   position: absolute;
   top: 0;
@@ -704,7 +700,7 @@ a:link {
     padding: 16px 50px;
     background-color: var(--verde);
   }
-  .glass {
+  .glass2 {
     position: absolute;
     top: 0;
     left: 0;
@@ -846,4 +842,13 @@ a:link {
 
 .circulo {
   width: 100px;
+}
+
+.glass {
+  background: rgba( 255, 255, 255, 0.10);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+  backdrop-filter: blur( 8.5px);
+  -webkit-backdrop-filter: blur( 8.5px);
+  border-radius: 10px ;
+  z-index: 2;
 }
