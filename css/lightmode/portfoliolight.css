@@ -107,7 +107,7 @@ body, ul, li {
 }
 
 .portfolio-lista::-webkit-scrollbar {
-  width: 18px;
+  width: 15px;
 }
 
 .portfolio-lista::-webkit-scrollbar-thumb {
