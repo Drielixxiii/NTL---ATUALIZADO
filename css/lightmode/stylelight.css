@@ -429,6 +429,13 @@ a:link {
   /* text-align: justify; */
 }
 
+.card-4-servicos {
+  background-color: #8d857e;
+  border-radius: 10px;
+  height: 100%;
+  /* text-align: justify; */
+}
+
 .card-4 h4 {
   /* color: #272727; */
   color: white;
@@ -437,7 +444,21 @@ a:link {
   font-weight: bold;
 }
 
+.card-4-servicos h4 {
+  /* color: #272727; */
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
 .card-4 p {
+  /* color: #272727; */
+  color: white;
+  font-size: 15px;
+}
+
+.card-4-servicos p {
   /* color: #272727; */
   color: white;
   font-size: 15px;
@@ -848,6 +869,6 @@ a:link {
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
   backdrop-filter: blur( 8.5px);
   -webkit-backdrop-filter: blur( 8.5px);
-  border-radius: 10px ;
+  border-radius: 10px;
   z-index: -2;
 }
