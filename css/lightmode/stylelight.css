@@ -81,6 +81,15 @@ footer {
   /* background-color: #555555; */
 }
 
+button {
+  color: white;
+  border: none;
+}
+
+button:active {
+  border: none;
+}
+
 .contato {
   margin-top: 100px !important;
 }
@@ -190,6 +199,13 @@ a {
 
 a:hover {
   color: #868691;
+}
+
+span {
+  font-size: 20px;
+  color: black;
+  background-color: #eca160;
+  border: none;
 }
 
 .page-header {
@@ -471,6 +487,7 @@ a:link {
 
 .icone {
   /* opacity: 50%; */
+  margin: 5px;
   width: 40px;
   height: 40px;
 }
@@ -547,13 +564,13 @@ a:link {
 }
 
 .btn {
-  background-color: var(--verde);
+  background-color: #F58220;
   color: white;
   font-size: 17px;
 }
 
 .btn:hover {
-  background-color: #4cbdbe;
+  background-color: #e4914a;
   color: white;
 }
 
@@ -871,4 +888,19 @@ a:link {
   -webkit-backdrop-filter: blur( 8.5px);
   border-radius: 10px;
   z-index: -2;
+}
+.modal-title {
+  font-weight: bold;
+}
+
+.modal-body{
+font-size: 14px;
+}
+
+.subtitulo-modal{
+  margin-top: 10px;
+  margin: 0 auto;
+}
+.modal-dialog{
+  max-width: 700px;
 }
