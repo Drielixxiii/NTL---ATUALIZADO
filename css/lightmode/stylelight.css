@@ -448,8 +448,7 @@ a:link {
 .card-4-servicos {
   background-color: #8d857e;
   border-radius: 10px;
-  height: 100%;
-  /* text-align: justify; */
+  height: 100px;
 }
 
 .card-4 h4 {
@@ -889,18 +888,21 @@ a:link {
   border-radius: 10px;
   z-index: -2;
 }
+
 .modal-title {
+  margin: 0 auto;
   font-weight: bold;
 }
 
-.modal-body{
-font-size: 14px;
+.modal-body {
+  font-size: 14px;
 }
 
-.subtitulo-modal{
+.subtitulo-modal {
   margin-top: 10px;
   margin: 0 auto;
 }
-.modal-dialog{
+
+.modal-dialog {
   max-width: 700px;
 }
