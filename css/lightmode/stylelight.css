@@ -171,6 +171,7 @@ button:active {
 
 .pergunta {
   color: #272727;
+  cursor: pointer;
 }
 
 .pergunta:hover {
