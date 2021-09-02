@@ -459,7 +459,7 @@ a:link {
 .card-4-servicos {
   background-color: #8d857e;
   border-radius: 10px;
-  max-height: 70px;
+  height: 70px;
   max-width: 400px;
   transition: 0.3s;
 }
