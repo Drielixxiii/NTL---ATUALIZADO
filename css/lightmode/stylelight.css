@@ -99,7 +99,8 @@ button:active {
 
 button:focus {
   border: none !important;
-  outline-style: none;}
+  outline-style: none;
+}
 
 .contato {
   margin-top: 100px !important;
