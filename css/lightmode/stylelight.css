@@ -441,9 +441,29 @@ a:link {
   color: #272727;
 }
 
-.card-img {
-  height: 80px;
-  width: 80px;
+.card-img1 {
+  height: 70px;
+  width: 70px;
+}
+
+.card-img2 {
+  height: 70px;
+  width: 70px;
+}
+
+.card-img3 {
+  height: 70px;
+  width: 70px;
+}
+
+.card-img4 {
+  height: 70px;
+  width: 70px;
+}
+
+.card-img5 {
+  height: 70px;
+  width: 95px;
 }
 
 .card-servicos {
