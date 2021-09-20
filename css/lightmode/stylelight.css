@@ -441,6 +441,11 @@ a:link {
   color: #272727;
 }
 
+.card-img {
+  height: 80px;
+  width: 80px;
+}
+
 .card-servicos {
   background-color: white;
   border-radius: 5px;
