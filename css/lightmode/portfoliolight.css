@@ -131,7 +131,7 @@ body, ul, li {
 }
 
 .portfolio-btn {
-  background-color: #8d8985;
+  background-color: #7aa0cc;
   border-radius: 10px;
   height: 50px;
   max-width: 400px;
@@ -139,7 +139,7 @@ body, ul, li {
 }
 
 .portfolio-btn:hover {
-  background-color: #6d6762;
+  background-color: #607fa1;
 }
 
 .card-4 h4 {
@@ -161,4 +161,8 @@ body, ul, li {
   /* color: #272727; */
   color: white;
   font-size: 15px;
+}
+
+.popover {
+  font-size: 13px;
 }

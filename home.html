@@ -910,13 +910,76 @@
         <div class="">
           <h3 class="text-center">Outsourcing</h3>
           <div class="row">            
-            <img class="projetos" src="img/hp.png">           
-            <img class="projetos" src="img/defesa civil.png">
-            <img class="projetos" src="img/LNCC.jpg">
-            <img class="projetos" src="img/conselho.jpg">  
-            <img class="projetos" src="img/corecon.jpg">  
-            <img class="projetos" src="img/incra.jpg">  
-            <img class="projetos" src="img/iphan.png">
+            <img tabindex="0" data-toggle="popover" data-trigger="focus" title="Parceiro de Serviços HP de 1993 a 2012." data-content="• Mais de Duzentos contratos de serviços;
+                <br> • Atendimento em todo território nacional;
+                <br> • Atendimento a diversos níveis de serviço (SLA), (1h, 2h, 4h, 8h, NBD etc.);
+                <br> • Atendimento em diversos tipos de escala (5 x 7, 24 x 7, etc.);
+                <br> • Suporte de software, clientes atendidos: Michelin, Light, Sadia, Souza Cruz, Unilever, Eaton, GVT, HP, Lucent, Telefônica;
+                <br> • Outsourcing de Impressão, clientes atendidos: Cargill, Garoto, SBT, Brasken, Unimed, Basf, BR Distribuidora, Votorantim entre outros."
+                class="projetos" src="img/hp.png">      
+
+            <img tabindex="0" data-toggle="popover" data-trigger="focus" title="Serviços de tecnologia da informação em desenvolvimento de sistemas, infraestrutura, suporte e manutenção da rede de dados e computadores" 
+                data-content="•	Suporte ao parque de microinformática;
+                <br> •	Suporte de hardware e software aos usuários;
+                <br> •	Suporte de 1º. e 2º. Nível;
+                <br> •	Utilização da metodologia Itil;
+                <br> •	Cabeamento e demais elementos de rede;
+                <br> •	Consultoria, desenvolvimento, implementação e operação da rede corporativa;
+                <br> •	Análise e desenvolvimento de sistemas específicos CBMERJ;
+                <br> •	Desenvolvimento e manutenção do Portal Corporativo;
+                <br> •	Total de usuários: aproximadamente 11 mil usuários."
+                class="projetos" src="img/defesa civil.png">
+
+            <img tabindex="0" data-toggle="popover" data-trigger="focus" title="Suporte aos usuários de Tecnologia da Informação (TI),
+                relativos aos serviços, transações, softwares, aplicativos, sistemas corporativos, produtos disponíveis na rede e estações de trabalho"
+                data-content="•	Administração de rede;
+                <br> •	Suporte ao parque de microinformática;
+                <br> •	Suporte de software e hardware aos usuários, alunos e pesquisadores;
+                <br> •	Administração de servidores;
+                <br> •	Suporte de 1º. e 2º. Níveis;
+                <br> •	Utilização da metodologia Itil;
+                <br> •	Total de usuários: aproximadamente 150 usuários."
+                class="projetos" src="img/LNCC.jpg">
+
+            <img tabindex="0" data-toggle="popover" data-trigger="focus" title="Serviços técnicos especializados na área da Tecnologia da Informação e Comunicação (TIC)"
+                data-content="•	Suporte ao parque de microinformática;
+                <br> •	Suporte de hardware e software aos usuários;
+                <br> •	Gerenciamento de redes e servidores;
+                <br> •	Suporte de 1º. e 2º. Níveis;
+                <br> •	Utilização da metodologia Itil;
+                <br> •	Administração e manutenção da Central Telefônica;
+                <br> •	Administração de banco de dados;
+                <br> •	Total de usuários: aproximadamente 50 usuários"
+                class="projetos" src="img/conselho.jpg">  
+
+            <img tabindex="0" data-toggle="popover" data-trigger="focus" title="Suporte e análise de softwares básicos e específicos e
+                administração de redes locais"
+                data-content="•	Suporte ao parque de microinformática;
+                <br> •	Suporte de hardware e software aos usuários;
+                <br> •	Suporte a internet e suporte de rede;
+                <br> •	Suporte e assessoria para softwares básicos e específicos;
+                <br> •	Suporte de 1º. e 2º. Níveis;
+                <br> •	Administração de banco de dados;
+                <br> •	Gerenciamento de redes e servidores;
+                <br> •	Total de usuários: Aproximadamente 50 usuários"
+                class="projetos" src="img/corecon.jpg">  
+
+            <img tabindex="0" data-toggle="popover" data-trigger="focus" title="Serviços técnicos de suporte a usuário e administração de rede e servidores"
+                data-content="•	Suporte ao parque de microinformática;
+                <br> •	Suporte de hardware e software aos usuários;
+                <br> •	Suporte de 1º. e 2º. Níveis;
+                <br> •	Gerenciamento de redes e servidores;
+                <br> •	Administração de servidores."
+                class="projetos" src="img/incra.jpg">  
+
+            <img tabindex="0" data-toggle="popover" data-trigger="focus" title="Suporte ao usuário e sustentação de infraestrutura"
+                data-content="•	Suporte de software e hardware aos usuários;
+                <br> •	Suporte ao parque de microinformática;
+                <br> •	Suporte de 1º. E 2º. nível;
+                <br> •	Sustentação de infraestrutura e tecnológica local;
+                <br> •	Utilização da metodologia Itil;
+                <br> •	Total de usuários: aproximadamente 300 usuários"
+                class="projetos" src="img/iphan.png">
           </div>
         </div>
       </section>
@@ -1313,11 +1376,16 @@
 
   <script>
     $(document).ready(function () {
-  $('[data-toggle="popover"]').popover({
-    placement: 'top',
-    trigger: 'hover'
-  });
-});
+      $('[data-toggle="popover"]').popover({
+        html:true,
+        placement: 'top',
+        trigger: 'hover'
+        });
+    });
+
+    $('.popover-dismiss').popover({
+      trigger: 'focus'
+    })
 
  $(function () {
   $('[data-toggle="tooltip"]').tooltip()
