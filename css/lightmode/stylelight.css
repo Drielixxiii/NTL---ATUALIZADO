@@ -483,7 +483,7 @@ a:link {
 }
 
 .card-4-servicos {
-  background-color: #8d857e;
+  background-color: #8d8985;
   border-radius: 10px;
   height: 70px;
   max-width: 400px;
@@ -506,7 +506,7 @@ a:link {
   /* color: #272727; */
   color: white;
   font-size: 20px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   font-weight: bold;
 }
 
@@ -836,6 +836,7 @@ a:link {
   /* margin: 10px 30px 60px 30px; */
   filter: grayscale(100%);
   transition: .5s ease-in-out;
+  cursor: pointer;
 }
 
 .projetos:hover {
@@ -966,8 +967,8 @@ a:link {
 }
 
 .projetos:nth-child(4) {
-  height: 40px;
-  width: 140px;
+  width: 80px;
+  height: 80px;
 }
 
 .projetos:nth-child(5) {
@@ -976,18 +977,14 @@ a:link {
 }
 
 .projetos:nth-child(6) {
+  margin-top: 50px;
   height: 25px;
   width: 160px;
 }
 
 .projetos:nth-child(7) {
-  width: 80px;
-  height: 80px;
-}
-
-.projetos:nth-child(8) {
-  height: 60px;
-  width: 110px;
+  height: 40px;
+  width: 140px;
 }
 
 .circulo {
@@ -1019,17 +1016,4 @@ a:link {
 
 .modal-dialog {
   max-width: 700px;
-}
-
-@import url("https://fonts.googleapis.com/css?family=Crushed");
-.bs-example {
-  margin-top: 10%;
-}
-
-.bs-example2 {
-  margin-top: 1.5em;
-  font-weight: bold;
-  font-size: 1.25em;
-  color: #FFF;
-  text-shadow: 1.25px 1px #25282a;
 }
