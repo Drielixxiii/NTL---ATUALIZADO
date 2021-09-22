@@ -13,10 +13,10 @@ body, ul, li {
   padding: 0px;
 }
 
-.grid-section img {
+/* .grid-section img {
   display: block;
   max-width: 100%;
-}
+} */
 
 @media (max-width: 700px) {
   .grid-container {
@@ -60,15 +60,16 @@ body, ul, li {
 }
 
 @media (min-width: 900px) {
+  /* aqui consigo alterar o tamanho do espaço do botão */
   .grid-section {
-    grid-column: 2 / 4;
-    width: 100%;
+    grid-column: 1 / 4;
+    /* width: 100%; */
     box-sizing: border-box;
-    padding: 10px;
+    padding: 5px;
     display: grid;
-    grid-template-columns: 20px 600px 1fr;
-    grid-gap: 20px;
-    margin-bottom: 4rem;
+    grid-template-columns: 20px 330px 1fr;
+    grid-gap: 0;
+    margin-bottom: 0;
   }
 }
 
@@ -97,7 +98,7 @@ body, ul, li {
 .portfolio-lista {
   /* margin-top: 10px; */
   border-radius: 10px;
-  height: 400px;
+  height: 500px;
   overflow-y: scroll;
   grid-column: 2;
 }
@@ -111,7 +112,7 @@ body, ul, li {
 }
 
 .portfolio-lista::-webkit-scrollbar-thumb {
-  background: var(--verde);
+  background: transparent;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
 }
@@ -121,7 +122,7 @@ body, ul, li {
 }
 
 .portfolio-descricao {
-  grid-column: 3;
+  grid-column: 4;
   margin-left: 4rem;
 }
 

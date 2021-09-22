@@ -15,7 +15,6 @@
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
   <link rel="manifest" href="img/site.webmanifest">
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-  
 </head>
 
 <body class="index-page sidebar-collapse">
@@ -813,18 +812,17 @@
       </div>
     </section>
   </div>
-
-   
+  
 
   <!-- NO COMPUTADOR -->
   <h1 class="titulo container"><img src="img/Circulo.png" class="circulo">Projetos realizados</h1>
   <section class="grid-section container portfolio" id="projetos">
     
     <!-- <div class="linha-gradiente"></div> -->
-    <ul class="portfolio-lista content mt-5" id="" data-tab="menu">
+    <ul class="portfolio-lista content" id="" data-tab="menu">
       <li>
-        <button class="col col-md-12" type="" class="" ></button>
-          <div class="card-4-servicos mb-3" style="max-width: 540px;">
+        <button class=" " type="" class="" ></button>
+          <div class="card-4-servicos" >
             <div class="row no-gutters">
               <div class="">
                 <div class="card-body">
@@ -837,8 +835,8 @@
       </li>
 
       <li>
-        <button class="col col-md-12" type="" class="" ></button>
-          <div class="card-4-servicos mb-3" style="max-width: 540px;">
+        <button class="" type="" class="" ></button>
+          <div class="card-4-servicos">
             <div class="row no-gutters">
               <div class="">
                 <div class="card-body">
@@ -851,8 +849,8 @@
       </li>
 
       <li>
-        <button class="col col-md-12" type="" class="card-4-servicos" ></button>
-          <div class="card-4-servicos mb-3" style="max-width: 540px;">
+        <button class="" type="" class="card-4-servicos" ></button>
+          <div class="card-4-servicos">
             <div class="row no-gutters">
               <div class="">
                 <div class="card-body">
@@ -865,8 +863,8 @@
       </li>
 
       <li>
-        <button class="col col-md-12" type="" class="card-4-servicos" ></button>
-         <div class="card-4-servicos mb-3" style="max-width: 540px;">
+        <button class="" type="" class="card-4-servicos" ></button>
+         <div class="card-4-servicos">
             <div class="row no-gutters">
               <div class="">
                 <div class="card-body">
@@ -879,8 +877,8 @@
       </li>
 
       <li>
-        <button class="col col-md-12" type="" class="card-4-servicos" ></button>
-          <div class="card-4-servicos mb-3" style="max-width: 540px;">
+        <button class="" type="" class="card-4-servicos" ></button>
+          <div class="card-4-servicos">
             <div class="row no-gutters">
               <div class="">
                 <div class="card-body">
@@ -893,8 +891,8 @@
       </li>
 
       <li>
-        <button class="col col-md-12" type="" class="card-4-servicos" ></button>
-          <div class="card-4-servicos mb-3" style="max-width: 540px;">
+        <button class="" type="" class="card-4-servicos" ></button>
+          <div class="card-4-servicos">
             <div class="row no-gutters">
               <div class="">
                 <div class="card-body">
@@ -912,10 +910,20 @@
         <div class="">
           <h3 class="text-center">Outsourcing</h3>
           <div class="row">            
-            <img class="projetos" src="img/hp.png">
-            <img class="projetos" src="img/ufrrj.png">
-            <img class="projetos" src="img/Michelin.png">
-            <img class="projetos" src="img/pjerj.png">            
+            <a class="" data-toggle="popover" title="Parceiro de Serviços HP de 1993 a 2012." data-content="•Mais de Duzentos contratos de serviços;
+              •	Atendimento em todo território nacional;
+              •	Atendimento a diversos níveis de serviço (SLA), (1h, 2h, 4h, 8h, NBD etc.);
+              •	Atendimento em diversos tipos de escala (5 x 7, 24 x 7, etc.);
+              •	Suporte de software, clientes atendidos: Michelin, Light, Sadia, Souza Cruz, Unilever, Eaton, GVT, HP, Lucent, Telefônica;
+              •	Outsourcing de Impressão, clientes atendidos: Cargill, Garoto, SBT, Brasken, Unimed, Basf, BR Distribuidora, Votorantim entre outros.
+              "><img class="projetos" src="img/hp.png">
+            </a>
+            <img class="projetos" src="img/defesa civil.png">
+            <img class="projetos" src="img/LNCC.jpg">
+            <img class="projetos" src="img/iphan.png">  
+            <img class="projetos" src="img/corecon.jpg">  
+            <img class="projetos" src="img/incra.jpg">  
+            <img class="projetos" src="img/conselho.jpg">
           </div>
         </div>
       </section>
@@ -982,10 +990,9 @@
     </div>
   </section>
 
-  <h1 class="titulo container"><img src="img/Circulo.png" class="circulo">Projetos realizados</h1>
+  <!-- <h1 class="titulo container"><img src="img/Circulo.png" class="circulo">Projetos realizados</h1>
   <section class="grid-section container portfolio" id="projetos">
     
-    <!-- <div class="linha-gradiente"></div> -->
     <ul class="portfolio-lista content mt-5" id="" data-tab="menu">
       <li>
         <img src="img/caraprogramando.jpg" />
@@ -1138,7 +1145,7 @@
         </p>
       </section>
     </div>
-  </section>
+  </section> -->
 
   <!-- NO CELULAR -->
   <section class="container portfolio-celular" id="">
@@ -1312,6 +1319,13 @@
   <script src="dist/aos.js"></script>
 
   <script>
+    $(document).ready(function () {
+  $('[data-toggle="popover"]').popover({
+    placement: 'top',
+    trigger: 'hover'
+  });
+});
+
  $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
