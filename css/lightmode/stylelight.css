@@ -442,8 +442,9 @@ a:link {
 }
 
 .card-img1 {
-  height: 70px;
-  width: 70px;
+  margin-top: 5px;
+  height: 60px;
+  width: 80px;
 }
 
 .card-img2 {
