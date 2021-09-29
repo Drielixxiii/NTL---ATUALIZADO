@@ -69,12 +69,6 @@ h1, h2, h3 {
   color: #F58220;
 }
 
-h4 {
-  font-size: 18px;
-  color: #272727;
-  text-align: justify;
-}
-
 footer {
   margin-top: 100px;
   color: #272727;
@@ -82,7 +76,6 @@ footer {
 }
 
 button {
-  color: white;
   border: none !important;
   outline-style: none;
 }
@@ -496,7 +489,6 @@ a:link {
 }
 
 .card-4 h4 {
-  /* color: #272727; */
   color: white;
   font-size: 20px;
   margin-bottom: 10px;
@@ -504,21 +496,19 @@ a:link {
 }
 
 .card-4-servicos h4 {
-  /* color: #272727; */
-  color: white;
+  color: black !important;
   font-size: 20px;
-  /* margin-bottom: 10px; */
+  text-align: justify;
+  margin-top: 10px;
   font-weight: bold;
 }
 
 .card-4 p {
-  /* color: #272727; */
   color: white;
   font-size: 15px;
 }
 
 .card-4-servicos p {
-  /* color: #272727; */
   color: white;
   font-size: 15px;
 }
@@ -529,7 +519,6 @@ a:link {
 }
 
 .icone {
-  /* opacity: 50%; */
   margin: 5px;
   width: 40px;
   height: 40px;
@@ -796,6 +785,13 @@ a:link {
   .tecnologia {
     height: 300px;
     width: 400px;
+  }
+  .card-4-servicos h4 {
+    color: black !important;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 10px;
+    font-weight: bold;
   }
 }
 

@@ -142,11 +142,8 @@ body, ul, li {
   background-color: #607fa1;
 }
 
-.card-4 h4 {
-  /* color: #272727; */
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
+h4 {
+  color: black;
 }
 
 .portfolio-btn h4 {
@@ -189,28 +186,6 @@ body, ul, li {
   transition: .5s ease-in-out;
 }
 
-.projetos2 {
-  /* margin: 50px 10px 5px 10px; */
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-  /* margin-top: 50px;
-  margin-bottom: 10px; 
-  margin-left: auto;
-  margin-right: auto;*/
-  /* display: grid; */
-  cursor: pointer;
-  filter: grayscale(100%);
-  transition: .5s ease-in-out;
-}
-
-.projetos2:hover {
-  filter: grayscale(0%);
-  transition: .5s ease-in-out;
-}
-
 .projetos:nth-child(1) {
   width: 85px;
   height: 70px;
@@ -237,14 +212,36 @@ body, ul, li {
 }
 
 .projetos:nth-child(6) {
-  margin-top: 50px;
-  height: 25px;
+  margin-top: 30px;
+  height: 40px;
   width: 160px;
 }
 
 .projetos:nth-child(7) {
   height: 40px;
   width: 140px;
+}
+
+.projetos2 {
+  /* margin: 50px 10px 5px 10px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  /* margin-top: 50px;
+  margin-bottom: 10px; 
+  margin-left: auto;
+  margin-right: auto;*/
+  /* display: grid; */
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: .5s ease-in-out;
+}
+
+.projetos2:hover {
+  filter: grayscale(0%);
+  transition: .5s ease-in-out;
 }
 
 .projetos2:nth-child(2) {
