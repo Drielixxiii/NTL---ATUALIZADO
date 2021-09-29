@@ -524,6 +524,12 @@ a:link {
   height: 40px;
 }
 
+.icone2 {
+  margin: 5px;
+  width: 100px;
+  height: 30px;
+}
+
 .line {
   border-right: 2px solid rgba(255, 255, 255, 0.75);
   color: white;
