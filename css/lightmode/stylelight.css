@@ -949,7 +949,12 @@ a:link {
 
 .modal-title {
   margin: 0 auto;
+  color: white;
   font-weight: bold;
+}
+
+.modal-header {
+  background-color: #F58220;
 }
 
 .modal-body {
