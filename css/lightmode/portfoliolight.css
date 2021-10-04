@@ -178,12 +178,12 @@ h4 {
   /* display: grid; */
   cursor: pointer;
   filter: grayscale(100%);
-  transition: .5s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 .projetos:hover {
   filter: grayscale(0%);
-  transition: .5s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 .projetos:nth-child(1) {
