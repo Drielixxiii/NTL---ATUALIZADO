@@ -42,7 +42,6 @@ body {
 }
 
 .subtopico {
-    /* margin-top: 20px; */
     font-size: 20px;
     color: #3a3a3a;
     text-align: justify;
@@ -60,11 +59,6 @@ body {
     margin: 10px;
     transition: .5s;
 }
-
-/* .servico:hover {
-    background-color: #f3ae72;
-    transition: .5s;
-} */
 
 .servico img {
     margin: 15px;

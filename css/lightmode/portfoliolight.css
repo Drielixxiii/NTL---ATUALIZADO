@@ -55,10 +55,8 @@ body, ul, li {
 }
 
 @media (min-width: 900px) {
-  /* aqui consigo alterar o tamanho do espaço do botão */
   .grid-section {
     grid-column: 1 / 4;
-    /* width: 100%; */
     box-sizing: border-box;
     padding: 5px;
     display: grid;
@@ -87,7 +85,6 @@ body, ul, li {
 .portfolio p {
   font-family: 'Cabin';
   line-height: 1.2;
-  /* margin-bottom: 1rem; */
 }
 
 .portfolio-lista {
@@ -139,7 +136,6 @@ body, ul, li {
   color: white;
   font-size: 20px;
   margin-bottom: 10px;
-  /* font-weight: bold; */
 }
 
 .portfolio-btn-cel {
@@ -155,7 +151,6 @@ body, ul, li {
 }
 
 .portfolio-btn p {
-  /* color: #272727; */
   color: white;
   font-size: 15px;
 }
@@ -165,17 +160,11 @@ body, ul, li {
 }
 
 .projetos {
-  /* margin: 50px 10px 5px 10px; */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 20px;
-  /* margin-top: 50px;
-  margin-bottom: 10px; 
-  margin-left: auto;
-  margin-right: auto;*/
-  /* display: grid; */
   cursor: pointer;
   filter: grayscale(100%);
   transition: .2s ease-in-out;
@@ -223,17 +212,11 @@ body, ul, li {
 }
 
 .projetos2 {
-  /* margin: 50px 10px 5px 10px; */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 20px;
-  /* margin-top: 50px;
-  margin-bottom: 10px; 
-  margin-left: auto;
-  margin-right: auto;*/
-  /* display: grid; */
   cursor: pointer;
   filter: grayscale(100%);
   transition: .5s ease-in-out;

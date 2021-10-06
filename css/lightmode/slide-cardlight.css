@@ -1,12 +1,10 @@
 @media (min-width: 1000px) {
-    /* won't appear on the monitor */
     .portfolio-celular {
         display: none;
     }
 }
 
 @media (max-width: 1000px) {
-    /* won't appear on the cell phone */
     .portfolio-computador {
         display: none;
     }
